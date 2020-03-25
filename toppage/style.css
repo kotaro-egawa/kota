@@ -1,0 +1,105 @@
+/* 字体 */
+.container-fluid {
+  
+  font-family: 'Caveat', cursive;
+}
+
+body {
+  animation: fadeIn 5s ease-in-out 0s 1 normal;
+  -webkit-animation: fadeIn 5s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+h2 {
+  padding: 70px;
+  text-align: center;
+  font-size: 50px !important;
+}
+
+
+.under {
+  background: linear-gradient(transparent 70%, #66FFFF 70%);
+}
+
+img {
+
+  width: 100% !important;
+  height: auto !important;
+
+}
+
+
+.main {
+
+  position: relative;
+
+}
+
+.main a {
+
+  font-size: 15px;
+}
+
+
+.thailand {
+
+  position: absolute;
+  top: 56%;
+  right: 26.5%;
+
+}
+
+
+.laos {
+  position: absolute;
+  top: 53.5%;
+  right: 23.5%;
+
+
+}
+
+
+.cambodia {
+  position: absolute;
+  top: 59%;
+  right: 23%;
+}
+
+.taiwan {
+
+  position: absolute;
+  top: 52%;
+  right: 18%;
+}
+
+
+.italy {
+  position: absolute;
+  top: 41%;
+  right: 48%;
+}
+
+
+.frence {
+  position: absolute;
+  top: 36%;
+  right: 52%;
+
+}
+
+
+
