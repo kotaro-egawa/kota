@@ -4,12 +4,12 @@ $(function() {
 
     $("a").mouseover(function() {
 
-        $(this).css("font-size", "20px");
+        $(this).css("font-size", "25px");
     });
 
     $("a").mouseout(function() {
 
-        $(this).css("font-size", "15px")
+        $(this).css("font-size", "20px")
     })
 });
 
