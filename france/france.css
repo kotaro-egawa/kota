@@ -1,0 +1,158 @@
+/* 字体 */
+.container-fluid {
+  
+    font-family: 'Caveat', cursive;
+  }
+  
+  .maincontents {
+    animation: fadeIn 5s ease-in-out 0s 1 normal;
+    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+
+  /*  サイドバー  */
+  
+  .sidebar {
+  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    
+  }
+  
+  
+  li {
+  
+    width: 30px;
+  }
+  
+  
+    .nav-item {
+      height: 50px;
+      width: 110px;
+      margin: 20px 0;
+      font-size: 20px;
+    }
+  
+    a {
+      color: black !important;
+      text-decoration: none !important;
+      margin: auto;
+      text-align: center;
+    }
+  
+  
+    
+  
+    
+  /*  メインコンテンツ  */
+  
+  h1 {
+  
+    text-align: center;
+    font-size: 150px !important;
+    height: 460px;
+    padding-top: 180px;
+  }
+
+  /*  見出し  */
+    
+  
+  .wrap{
+    top: 100px;
+    max-width: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: 200px;
+    height: 300px;
+  }
+  
+  .img-box{
+    margin-left: 10%;
+  }
+  
+  .img-box img{
+    width: 60%;
+    vertical-align: bottom;
+    height: 300%;
+  }
+  
+  .black-color,
+  .white-color{
+    margin: 0; 
+    font-weight: bold;
+    font-size: 80px;
+    position: absolute;
+    top: 1%;
+    height: calc(100% - 1%);
+    overflow: hidden;
+  }
+  
+  .white-color{
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  .black-color{
+    width: 10%;
+  }
+  
+  .white-color span,
+  .black-color span{
+    display: block;
+    position: absolute;
+  }
+  
+  .white-color span{
+    width: 100%;
+    color: #fff;
+    left: -10%;
+  }
+  
+  .black-color span{
+    width: 1000%;
+  }
+  
+  
+  /* 写真 */
+  
+  
+  .paris {
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+  }
+  
+  
+  .paris img  {
+  
+    height: 379.74px;
+    width: 379.74px;
+    object-fit: cover;   /*  写真のサイズを統一してトリミング  */
+  
+    vertical-align: bottom;
+    margin: 100px 50px;
+  
+  }
+  
+  
