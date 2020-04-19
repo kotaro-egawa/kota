@@ -14,29 +14,3 @@ $(function() {
 });
 
 
-/* スクロールエフェクト */
-
-window.onload = function() {
-
-    scroll_effect();
-
-    $(window).scroll(function() {
-
-        scroll_effect();
-    });
-
-    function scroll_effect() {
-
-        $(".effect-fade").each(function() {
-
-            let elemPos = $(this).offset().top;
-            let scroll = $(window).scrollTop();
-            let windowHeight = $(window).height();
-
-            if (scroll > elemPos - windowHeight) {
-
-                $(this).addClass("effect-scroll");
-            }
-        });
-    }
-};
