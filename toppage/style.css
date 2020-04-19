@@ -4,6 +4,8 @@
   font-family: 'Caveat', cursive;
 }
 
+/*  ゆっくり表示  */
+  
 body {
   animation: fadeIn 5s ease-in-out 0s 1 normal;
   -webkit-animation: fadeIn 5s ease 0s 1 normal;
@@ -19,21 +21,19 @@ body {
   100% {opacity: 1}
 }
 
+
+
 a {
   color: black !important;
   text-decoration: none !important;
 }
 
 h2 {
-  padding: 70px;
+  padding-top: 70px;
   text-align: center;
-  font-size: 50px !important;
+  font-size: 70px !important;
 }
 
-
-.under {
-  background: linear-gradient(transparent 70%, #66FFFF 70%);
-}
 
 img {
 
@@ -51,7 +51,7 @@ img {
 
 .main a {
 
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -82,8 +82,8 @@ img {
 .taiwan {
 
   position: absolute;
-  top: 52%;
-  right: 18%;
+  top: 50%;
+  right: 17%;
 }
 
 
@@ -94,7 +94,7 @@ img {
 }
 
 
-.frence {
+.france {
   position: absolute;
   top: 36%;
   right: 52%;

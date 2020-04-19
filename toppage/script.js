@@ -1,13 +1,3 @@
-$(function(){
-
-    $("document").css({opacity: "0"});
-    setTimeout(function() {
-        $("document").ready().animate({opacity: "1"},3000)
-    });
-
-});
-
-
 /* サイドバー */
 
 $(function() {
